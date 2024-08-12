@@ -2,10 +2,7 @@
 	"name": "publicodes-monorepo",
 	"private": true,
 	"workspaces": [
-		"website",
-		"website-v2",
-		"packages/*",
-		"examples/*"
+		"packages/core"
 	],
 	"scripts": {
 		"test": "turbo run test",
