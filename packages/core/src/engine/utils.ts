@@ -20,7 +20,9 @@ export function isAValidOption<Name extends string>(
 	const parsedRules = engine.getParsedRules()
 	const compareValue =
 		parsedSituationExpr && 'constant' in parsedSituationExpr ?
-			`'${parsedSituationExpr.constant.nodeValue}'`
+			parsedSituationExpr.constant.type === 'boolean' ?
+				value
+			:	`'${parsedSituationExpr.constant.nodeValue}'`
 		:	(parsedSituationExpr as any).variable
 	const options =
 		(
