@@ -15,7 +15,7 @@ export function isAValidOption<Name extends string>(
 ) {
 	// original: https://github.com/publicodes/publicodes/blob/946d98d1b4fb77b6f9a48ccb16d658816e6701df/packages/core/src/engine/utils.ts
 	// updated to work with options
-	if (typeof value === 'number') {
+	if (typeof value === 'number' || value === null || value === undefined) {
 		return true
 	}
 
