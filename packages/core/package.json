@@ -1,6 +1,6 @@
 {
-	"name": "publicodes",
-	"version": "1.5.1",
+	"name": "@totak/publicodes",
+	"version": "1.5.1-fcu6",
 	"description": "A declarative language for encoding public algorithm",
 	"types": "dist/index.d.ts",
 	"type": "module",

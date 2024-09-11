@@ -9,6 +9,12 @@
 Changelog antérieur à la v1.5.0
 </summary>
 
+## 1.6.0
+
+**@publicodes/core**
+
+- Ajoute le mécanisme division entière via la syntaxe `//`
+
 ## 1.5.0
 
 **@publicodes/core**
