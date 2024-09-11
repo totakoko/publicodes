@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import Engine from '.'
 import { Situation } from '..'
 import { parseExpression } from '../parseExpression'
